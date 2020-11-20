@@ -6,10 +6,10 @@ import time
 import datetime
 
 #llaves api de la cuenta de twitter
-consumer_key='PX9S52QXCoam0F3KAh9mEyWBA'
-consumer_secret='Q2jXZzUSDHjqkmyH72BvuxtHvX2Oq3U6wTOG60SAtoTmqOMJxu'
-access_token='1145667870371790848-ohhVx43vTnNrkXZj4oSVTOcTwqiphs'
-access_token_secret='Jtk19jDLmzT3ZMXHMvICRSGmz9n3v8EOPhm1aO7YgMyOi'
+consumer_key='XXXXXXXXXXXXXXXXXXXXXXXX'
+consumer_secret='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+access_token='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+access_token_secret='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
