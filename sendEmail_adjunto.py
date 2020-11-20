@@ -6,9 +6,9 @@ import smtplib
 #crea la instancia del objeto de mensaje
 msg = MIMEMultipart()
 #configura los parametros del mensaje
-password = "epas2817epas"
-msg['From'] ="erickpasache0@gmail.com"
-msg['To'] = "epasache_28@hotmail.com"
+password = "XXXXXXXXX"
+msg['From'] ="ejemplo0@gmail.com"
+msg['To'] = "otro_correo@hotmail.com"
 msg['Subject'] = "Photo"
 #adjunta imagen en el cuerpo del mensaje
 msg.attach(MIMEImage(file("image.jpg").read()))
